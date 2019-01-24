@@ -11,32 +11,44 @@
     <link rel="stylesheet" type="text/css" href="./main.css">
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg navbar-dark bg-light">
-       <a>Navbar Link</a>
-       <button>
-           <span></span>
-       </button>
-       <div> 
-           <ul>
-               <li>
-                   <a href="#">Home</a> 
-               </li>
-               <li>
-                   <a href="#">About</a>
-               </li>
-               <li>
-                   <a href="#">Projects</a>
-               </li>
-           </ul>
-       </div>
-
-   </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
    <!--Header--> 
-   <div> 
+   <div> <div id="header" class="jumbotron">
+    <h1 class="display-4 text-center">Joshua Riley</h1>
+    <p class="lead text-center">Junior Web Developer</p>
+    <hr class="my-4">
+    <div class="text-center">
+      <a class="btn btn-primary btn-lg btn-dark" href="#portfolio" role="button">View My Work!</a>
+    </div>
+  </div>
 
    </div>
    <!--About-->
-   <section>
+   <section id="About Me">
+     <h1>About Me</h1>
+     <p>My name is Joshua Riley and I am a current junior developer at the ElevenFifty Launch program. I am a 22 year old server at Olive Garden with a decent amount of college experience.
+        I am enrolled in the Microsoft.Net cohort and am aiming to complete the program sometime in April. </p>
 
    </section>
    <!--Projects-->
@@ -45,7 +57,7 @@
    </section>
 
    <!--Contact-->
-   <scetion>
+
     <section id="contact">
         <div class="container">
           <h2 class="text-center text-uppercase">Contact Me</h2>
@@ -111,7 +123,6 @@
   
   
   
-  Collapse 
-   </scetion>
+  Collapse
 </body>
 </html>
