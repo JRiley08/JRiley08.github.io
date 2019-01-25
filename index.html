@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-   
-    <link rel="stylesheet" type="text/css" href="./main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="./main.css">
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -22,107 +26,99 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
-   <!--Header--> 
-   <div> <div id="header" class="jumbotron">
-    <h1 class="display-4 text-center">Joshua Riley</h1>
-    <p class="lead text-center">Junior Web Developer</p>
-    <hr class="my-4">
-    <div class="text-center">
-      <a class="btn btn-primary btn-lg btn-dark" href="#portfolio" role="button">View My Work!</a>
+  <!--Header-->
+  <div>
+    <div id="header" class="jumbotron">
+      <h1 class="display-4 text-center">Joshua Riley</h1>
+      <p class="lead text-center">Junior Web Developer</p>
+      <hr class="my-4">
+      <div class="text-center">
+        <a class="btn btn-primary btn-lg btn-dark" href="#portfolio" role="button">View My Work!</a>
+      </div>
     </div>
+    <hr>
   </div>
+  <!--About-->
+  <section id="AboutMe">
+    <h1 class="display-4 text-center">About Me</h1>
+    <p class="text-center">My name is Joshua Riley and I am a current junior developer at the ElevenFifty Launch
+      program. I am a 22 year old server at Olive Garden with a decent amount of college experience.
+      I am enrolled in the Microsoft.Net cohort and am aiming to complete the program sometime in April. I was born and
+      raised in Indianapolis, Indiana and have lived here my entire live outside of the few years I journeyed off to
+      college.
+      I attended St.Joseph's College my freshman year where I was on academic and basketball scholarship and I
+      transfered to Indiana University Bloomington to focus more on my career after school. </p>
+    <hr>
+  </section>
+  <!--Projects-->
+  <section id="Projects">
+    <h1>Projects</h1>
+    
+      <li><a href="https://codepen.io/Jriley04/pen/OrErJQ">CSS Creature</a></li>
+      <li><a href="file:///C:/Users/Josh/Documents/JavaScript-101-StoreAppStarter-master/index.html">Cheese Store</a></li>
+      <li><a href="https://github.com/JRiley08/GoldBadgeChallenges">Console Applications</a></li>
 
-   </div>
-   <!--About-->
-   <section id="About Me">
-     <h1>About Me</h1>
-     <p>My name is Joshua Riley and I am a current junior developer at the ElevenFifty Launch program. I am a 22 year old server at Olive Garden with a decent amount of college experience.
-        I am enrolled in the Microsoft.Net cohort and am aiming to complete the program sometime in April. </p>
+    
+  </section>
+  <hr>
+  <!--Contact-->
 
-   </section>
-   <!--Projects-->
-   <section>
-
-   </section>
-
-   <!--Contact-->
-
-    <section id="contact">
-        <div class="container">
-          <h2 class="text-center text-uppercase">Contact Me</h2>
-          <div class="row">
-            <div class="col-12">
-              <form action="https://formspree.io/joshriley4@yahoo.com" method="POST">
-                <div class="control-group">
-                  <div class="form-group">
-                    <label>Name</label>
-                    <input 
-                      type="text" 
-                      class="form-control" 
-                      placeholder="Your Name" 
-                      id="name" 
-                      required 
-                      data-validation-required-message="Please enter your name"
-                      name="name"
-                      >
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <div class="form-group">
-                    <label>Email Address</label>
-                    <input 
-                      type="email" 
-                      class="form-control" 
-                      placeholder="Your Email" 
-                      id="email" 
-                      required 
-                      data-validation-required-message="Please enter your email"
-                      name="_replyto"
-                    >
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <div class="form-group">
-                    <textarea 
-                      class="form-control" 
-                      rows="7" 
-                      placeholder="Your Message" 
-                      id="message" 
-                      required 
-                      data-validation-required-message="Please leave a message"
-                      name="message"
-                    ></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="text-center">
-                  <div id="success"></div>
-                  <button type="submit" class="btn btn-lg btn-black">
-                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                    Send Message
-                  </button>
-                </div>
-              </form>
+  <section id="contact">
+    <div class="container">
+      <h2 class="text-center text-uppercase">Contact Me</h2>
+      <div class="row">
+        <div class="col-12">
+          <form action="https://formspree.io/joshriley4@yahoo.com" method="POST">
+            <div class="control-group">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                  data-validation-required-message="Please enter your name" name="name">
+                <p class="help-block text-danger"></p>
+              </div>
             </div>
-          </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                  data-validation-required-message="Please enter your email" name="_replyto">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                  data-validation-required-message="Please leave a message" name="message"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
         </div>
-      </section>
-  
-  
-  
+      </div>
+    </div>
+  </section>
+
+
+
   Collapse
 </body>
+
 </html>
